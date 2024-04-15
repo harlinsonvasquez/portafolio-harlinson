@@ -33,6 +33,10 @@
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-mysql-original colored",
+            "name": "Mysql"
         }
     ],
    
