@@ -11,39 +11,7 @@
 
 Desarrollado utilizando [Python](https://python.org) y [Reflex](https://reflex.dev), disponible para desplegar de forma estática (HTML, CSS, JS).
 
-#### Proyecto realizado durante emisiones en directo desde [Twitch](https://twitch.tv/mouredev)
-> ##### Si consideras útil el proyecto, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
 
-## Portafolio
-
-<a href="https://youtu.be/zFbTXe1yFGA"><img src="http://i3.ytimg.com/vi/zFbTXe1yFGA/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-¿Qué información debo añadir en mi portafolio como desarrollador? En [este](https://youtu.be/zFbTXe1yFGA) vídeo explico el por qué de cada apartado.
-
-Tras el análisis, elaboré un esquema para reflejar la información obligatoria, recomendable, opcional y desaconsejada de la web.
-
-![Esquema portafolio](https://mouredev.com/images/portafolio.jpg)
-
-Con esta premisa he desarrollado este proyecto web que refleja de manera real toda la información de nuestro "portafolio perfecto".
-
-## Proyecto
-
-Plantilla web para programadores desarrollada con la premisa de crear el "portafolio perfecto", con todas las secciones e información fundamental.
-
-<a href="./demo.png"><img src="./demo.png" style="height: 50%; width:50%;"/></a>
-
-* Avatar y datos principales
-* Información de contacto, CV y redes
-* Sobre mí
-* Tecnologías
-* Experiencia
-* Proyectos
-* Formación
-* Extra
-
-**Demo: [https://portafolio-template.vercel.app/](https://portafolio-template.vercel.app/)**
-
-<a href="./live_demo.png"><img src="./live_demo.png" style="height: 50%; width:50%;"/></a>
 
 ## Instalación
 
