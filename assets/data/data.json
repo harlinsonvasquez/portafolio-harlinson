@@ -4,37 +4,39 @@
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Harlinson Vasquez Casanova",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "skill": "Programador- backend",
+    "location": "Medellin-Colombia",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "harvack25@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/harlinsonvasquez",
+        "likedin": "https://www.linkedin.com/in/harlinson-vasquez-casanova-27392129b/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Soy un desarrollador junior apasionado por aprender y colaborar en equipos dinamicos. Mi actitud positiva, mi voluntad de adaptarme y mi sed de conocimiento me permiten contribuir activamente al exito de la empresa. Busco constantemente oportunidades para mejorar mis habilidades y mantenerme al tanto de las ultimas tecnologias. Estoy emocionado por la oportunidad de crecer profesionalmente y hacer una diferencia significativa en proyectos desafiantes..",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "devicon-git-plain colored",
+            "name": "Git"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "devicon-github-original colored",
+            "name": "Github"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-javascript-plain colored",
+            "name": "JavaScript"
         },
         {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-java-plain colored",
+            "name": "Java"
         },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
         }
     ],
+   
+    
     "experience": [
         {
             "icon": "terminal",
@@ -69,7 +71,7 @@
             ],
             "image": "/project_1.jpg",
             "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "github": "https://github.com/harlinsonvasquez"
         },
         {
             "icon": "bug-off",

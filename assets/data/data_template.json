@@ -7,10 +7,10 @@
     "skill": "Habilidad principal",
     "location": "Localización",
     "media": {
-        "email": "email@email.com",
+        "email": "harvack25@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com",
-        "likedin": "https://linkedin.com"
+        "github": "https://github.com/harlinsonvasquez",
+        "likedin": "https://www.linkedin.com/in/harlinson-vasquez-casanova-27392129b/"
     },
     "about": "Descripción",
     "technologies": [
@@ -27,6 +27,7 @@
             "name": "Tecnología"
         }
     ],
+  
     "experience": [
         {
             "icon": "box-select",
