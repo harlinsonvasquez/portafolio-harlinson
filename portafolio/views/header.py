@@ -9,7 +9,7 @@ def header(data: Data) -> rx.Component:
     return rx.hstack(
         rx.avatar(
             src=data.avatar,
-            size=Size.BIG.value
+            size=Size.BIG.value #con esto le damos la propiedad de tamaño grande al avatar
         ),
         rx.vstack(
             heading(data.name, True),
@@ -20,7 +20,7 @@ def header(data: Data) -> rx.Component:
                 display="inherit"
             ),
             media(data.media),
-            spacing=Size.SMALL.value,
+            spacing=Size.SMALL.value,#espaciado entre el avatar y el texto  
         ),
-        spacing=Size.DEFAULT.value,
+        spacing=Size.DEFAULT.value,#con esto espaciamos el avatar y el texto
     )

@@ -5,7 +5,7 @@ from portafolio.styles.styles import IMAGE_HEIGHT, Size
 
 
 def card_detail(extra: Extra) -> rx.Component:
-    return rx.card(
+    return rx.card(#retornamos un card con la imagen, el titulo y la descripcion
         rx.link(
             rx.inset(
                 rx.image(
@@ -17,7 +17,7 @@ def card_detail(extra: Extra) -> rx.Component:
                 pb=Size.DEFAULT.value
             ),
             rx.text.strong(extra.title),
-            rx.text(
+            rx.text(#creamos un texto con la descripcion
                 extra.description,
                 size=Size.SMALL.value,
                 color_scheme="gray"

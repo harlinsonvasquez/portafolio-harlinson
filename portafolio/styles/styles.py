@@ -1,11 +1,11 @@
 from enum import Enum
 import reflex as rx
 
-MAX_WIDTH = "900px"
-IMAGE_HEIGHT = "200px"
+MAX_WIDTH = "900px"#ancho maximo de la pagina
+IMAGE_HEIGHT = "200px"#altura de la imagen
 
 
-class EmSize(Enum):
+class EmSize(Enum):#medidas que vamos a usar en portafolio.py en la propiedad padding_x y padding_y
     DEFAULT = "1em"  # 16px
     MEDIUM = "2em"
     BIG = "4em"

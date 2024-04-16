@@ -13,23 +13,23 @@ DATA = data.data
 
 def index() -> rx.Component:
     return rx.center(
-        # rx.theme_panel(),
+         rx.theme_panel(),
         rx.vstack(
             header(DATA),
             about(DATA.about),
-            rx.divider(),
+            rx.divider(),#con esto creamos una linea divisoria
             tech_stack(DATA.technologies),
-            info("Experiencia", DATA.experience),
-            info("Proyectos", DATA.projects),
-            info("Formación,", DATA.training),
-            extra(DATA.extras),
-            rx.divider(),
+            info("Experiencia", DATA.experience),#con esto mostramos la información de la experiencia en la página
+            info("Proyectos", DATA.projects),#con esto mostramos la información de los proyectos en la página
+            info("Formación,", DATA.training),#con esto mostramos la información de la formación en la página   
+            extra(DATA.extras),#con esto mostramos la información extra en la página
+            rx.divider(),#con esto creamos una linea divisoria
             footer(DATA.media),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
             max_width=MAX_WIDTH,
-            width="100%"
+            width="100%"#con esto le damos un ancho del 100% al contenedor
         )
     )
 

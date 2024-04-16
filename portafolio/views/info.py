@@ -15,8 +15,8 @@ def info(title: str, info: list[Info]) -> rx.Component:
                 for item in info
             ],
             spacing=Size.DEFAULT.value,
-            width="100%"
+            width="100%"#con esto le damos un ancho del 100% al contenedor
         ),
         spacing=Size.DEFAULT.value,
-        width="100%"
+        width="100%"#con esto le damos un ancho del 100% al contenedor
     )

@@ -7,15 +7,15 @@ from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
 def info_detail(info: Info) -> rx.Component:
     return rx.flex(
-        rx.hstack(
+        rx.hstack(  #creamos un contenedor horizontal
             icon_badge(info.icon),
-            rx.vstack(
-                rx.text.strong(info.title),
+            rx.vstack(#creamos un contenedor vertical
+                rx.text.strong(info.title),#creamos un texto en negrita con el titulo
                 rx.text(info.subtitle),
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
-                    color_scheme="gray"
+                    color_scheme="gray"#le damos un color gris al texto de la descripcion
                 ),
                 rx.cond(
                     info.technologies,
@@ -26,7 +26,7 @@ def info_detail(info: Info) -> rx.Component:
                                 technology.name,
                                 color_scheme="gray"
                             )
-                            for technology in info.technologies
+                            for technology in info.technologies#recorremos la lista de tecnologias y creamos un badge con el icono y el nombre de la tecnologia 
                         ],
                         wrap="wrap",
                         spacing=Size.SMALL.value
@@ -57,11 +57,11 @@ def info_detail(info: Info) -> rx.Component:
         rx.cond(
             info.image != "",
             rx.image(
-                src=info.image,
-                height=IMAGE_HEIGHT,
-                width="auto",
-                border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
+                src=info.image,#|image| es la propiedad que contiene la url de la imagen
+                height=IMAGE_HEIGHT,#|IMAGE_HEIGHT| es la propiedad que contiene la altura de la imagen
+                width="auto",#|auto| es la propiedad que le da un ancho automatico a la imagen
+                border_radius=EmSize.DEFAULT.value,#|EmSize.DEFAULT.value| es la propiedad que contiene el radio del borde de la imagen
+                object_fit="cover"#|cover| es la propiedad que le da un ajuste de imagen de portada a la imagen
             )
         ),
         rx.vstack(
@@ -78,7 +78,7 @@ def info_detail(info: Info) -> rx.Component:
                 )
             ),
             spacing=Size.SMALL.value,
-            align="end"
+            align="end"#alineamos los elementos al final
         ),
         flex_direction=["column-reverse", "row"],
         spacing=Size.DEFAULT.value,

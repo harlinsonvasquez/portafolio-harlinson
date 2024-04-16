@@ -37,6 +37,10 @@
         {
             "icon": "devicon-mysql-original colored",
             "name": "Mysql"
+        },
+        {
+            "icon": "devicon-spring-original colored",
+            "name": "Spring Boot"
         }
     ],
    
