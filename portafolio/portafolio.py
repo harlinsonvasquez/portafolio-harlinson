@@ -7,6 +7,7 @@ from portafolio.views.footer import footer
 from portafolio.views.header import header
 from portafolio.views.info import info
 from portafolio.views.tech_stack import tech_stack
+from portafolio.views.framework import framework
 
 DATA = data.data#con esto importamos los datos de la página que se encuentran en el archivo data.py
 
@@ -19,6 +20,7 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),#con esto creamos una linea divisoria
             tech_stack(DATA.technologies),
+            framework(DATA.frameworks),
             info("Experiencia", DATA.experience),#con esto mostramos la información de la experiencia en la página
             info("Proyectos", DATA.projects),#con esto mostramos la información de los proyectos en la página
             info("Formación,", DATA.training),#con esto mostramos la información de la formación en la página   

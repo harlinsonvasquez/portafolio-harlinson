@@ -14,14 +14,8 @@
     },
     "about": "Soy un desarrollador junior apasionado por aprender y colaborar en equipos dinamicos. Mi actitud positiva, mi voluntad de adaptarme y mi sed de conocimiento me permiten contribuir activamente al exito de la empresa. Busco constantemente oportunidades para mejorar mis habilidades y mantenerme al tanto de las ultimas tecnologias. Estoy emocionado por la oportunidad de crecer profesionalmente y hacer una diferencia significativa en proyectos desafiantes..",
     "technologies": [
-        {
-            "icon": "devicon-git-plain colored",
-            "name": "Git"
-        },
-        {
-            "icon": "devicon-github-original colored",
-            "name": "Github"
-        },
+        
+      
         {
             "icon": "devicon-javascript-plain colored",
             "name": "JavaScript"
@@ -33,14 +27,29 @@
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        }
+       
+    ],
+    "frameworks": [
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
         },
         {
-            "icon": "devicon-mysql-original colored",
-            "name": "Mysql"
+            "icon": "devicon-flask-original",
+            "name": "Flask"
+        },
+        {
+            "icon": "devicon-eclipse-plain colored",
+            "name": "Eclipse"
         },
         {
             "icon": "devicon-spring-original colored",
             "name": "Spring Boot"
+        },
+        {
+            "icon": "devicon-nodejs-plain-wordmark colored",
+            "name": "Node.js"
         }
     ],
    
