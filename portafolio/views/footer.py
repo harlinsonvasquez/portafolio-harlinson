@@ -4,9 +4,9 @@ from portafolio.data import Media
 from portafolio.styles.styles import Size
 
 
-def footer(data: Media) -> rx.Component:#como parametro recibe un objeto de tipo Media que contiene la informacion de los medios como email, github, linkedin, etc
+def footer(data: Media) -> rx.Component:#como parametro recibe un objeto de tipo Media que contiene la informacion de los medios como email,
     return rx.vstack(
-        rx.text("Nombre"),#con rx.text creamos un texto que va a contener el nombre
+        rx.text("Harlinson vasquez"),#con rx.text creamos un texto que va a contener el nombre
         media(data),
         spacing=Size.SMALL.value
     )

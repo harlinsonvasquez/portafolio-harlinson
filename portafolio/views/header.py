@@ -5,10 +5,10 @@ from portafolio.data import Data
 from portafolio.styles.styles import Size
 
 
-def header(data: Data) -> rx.Component:
+def header(data: Data) -> rx.Component:#con esto creamos el encabezado de la página y los parametros que recibe son los datos del json que fue convertidos a clases en el archivo data.py
     return rx.hstack(
         rx.avatar(
-            src=data.avatar,
+            src=data.avatar,#data.avatar es la imagen del avatar que se encuentra en el archivo data.py
             size=Size.BIG.value #con esto le damos la propiedad de tamaño grande al avatar
         ),
         rx.vstack(

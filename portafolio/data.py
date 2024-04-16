@@ -1,6 +1,6 @@
 import json
 
-
+# Clases para almacenar los datos del archivo data.json
 class Media:
     def __init__(self, email, cv, github, likedin):
         self.email = email
@@ -71,7 +71,7 @@ class Data:
         self.extras = [Extra(**info) for info in extras]
 
 
-with open("assets/data/data.json") as file:
+with open("assets/data/data.json") as file:#abrimos el archivo data.json
     json_data = json.load(file)
 
-data = Data(**json_data)
+data = Data(**json_data)#creamos una instancia de la clase Data con los datos del archivo data.json

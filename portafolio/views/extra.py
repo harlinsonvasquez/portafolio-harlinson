@@ -9,7 +9,7 @@ def extra(extras: list[Extra]) -> rx.Component:
     return rx.vstack(
         heading("Extra"),
         rx.mobile_only(
-            rx.vstack(
+            rx.vstack(#lo pintamos en columna cuando esta en modo movil
                 *[
                     card_detail(extra)
                     for extra in extras
@@ -19,7 +19,7 @@ def extra(extras: list[Extra]) -> rx.Component:
             width="100%"
         ),
         rx.tablet_and_desktop(
-            rx.grid(
+            rx.grid(#lo definimos grid cuando esta en modo tablet o desktop y que se repatrta en 3 columnas
                 *[
                     card_detail(extra)
                     for extra in extras

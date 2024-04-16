@@ -12,7 +12,7 @@ def card_detail(extra: Extra) -> rx.Component:
                     src=extra.image,
                     height=IMAGE_HEIGHT,
                     width="100%",
-                    object_fit="cover"
+                    object_fit="cover"#con esto le damos un tamaño a la imagen o mantenemos la proporción de la imagen
                 ),
                 pb=Size.DEFAULT.value
             ),

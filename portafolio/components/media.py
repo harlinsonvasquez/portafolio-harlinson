@@ -5,7 +5,7 @@ from portafolio.styles.styles import Size
 
 
 def media(data: Media) -> rx.Component:
-    return rx.flex(
+    return rx.flex(#con esto creamos un contenedor flexible
         icon_button(
             "mail",
             f"mailto:{data.email}",
@@ -28,5 +28,5 @@ def media(data: Media) -> rx.Component:
             spacing=Size.SMALL.value#espaciado entre los iconos de tamaño pequeño
         ),
         spacing=Size.SMALL.value,
-        flex_direction=["column", "column", "row"]
+        flex_direction=["column", "column", "row"]#con esto le damos una dirección al contenedor flexible
     )

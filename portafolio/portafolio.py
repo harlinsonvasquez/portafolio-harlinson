@@ -8,14 +8,14 @@ from portafolio.views.header import header
 from portafolio.views.info import info
 from portafolio.views.tech_stack import tech_stack
 
-DATA = data.data
+DATA = data.data#con esto importamos los datos de la página que se encuentran en el archivo data.py
 
 
 def index() -> rx.Component:
     return rx.center(
-         rx.theme_panel(),
+         #rx.theme_panel(),
         rx.vstack(
-            header(DATA),
+            header(DATA),#le pasamos al header los datos que vienen del archivo data.py que a su vez vienen del archivo data.json
             about(DATA.about),
             rx.divider(),#con esto creamos una linea divisoria
             tech_stack(DATA.technologies),
@@ -39,10 +39,13 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="grass",
-        radius="full"
+        #accent_color="grass",
+        radius="large",
+        panelBackground="solid",
+        grayColor="sand"
     )
 )
+
 
 title = DATA.title
 description = DATA.description

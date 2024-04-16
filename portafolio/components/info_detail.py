@@ -54,7 +54,7 @@ def info_detail(info: Info) -> rx.Component:
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        rx.cond(
+        rx.cond(#condicionamos si la imagen no esta vacia
             info.image != "",
             rx.image(
                 src=info.image,#|image| es la propiedad que contiene la url de la imagen
@@ -80,7 +80,7 @@ def info_detail(info: Info) -> rx.Component:
             spacing=Size.SMALL.value,
             align="end"#alineamos los elementos al final
         ),
-        flex_direction=["column-reverse", "row"],
+        flex_direction=["column-reverse", "row"],#pone la imagen sobre el texto en dispositivos moviles
         spacing=Size.DEFAULT.value,
         width="100%"
     )
