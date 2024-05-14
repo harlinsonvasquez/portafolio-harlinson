@@ -28,3 +28,4 @@ BASE_STYLE = {
         "--cursor-button": "pointer"
     }
 }
+background_color = "#f0f0f0"

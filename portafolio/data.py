@@ -19,9 +19,14 @@ class Framework:
         self.icon = icon
         self.name = name
 
+class Adicional:
+    def __init__(self, icon, name):
+        self.icon = icon
+        self.name = name
+
 
 class Info:
-    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[],frameworks=[], image="", url="", github=""):
+    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[],frameworks=[],adicionales=[], image="", url="", github=""):
         self.icon = icon
         self.title = title
         self.subtitle = subtitle
@@ -30,6 +35,7 @@ class Info:
         self.certificate = certificate
         self.technologies = [Technology(**tech) for tech in technologies]
         self.frameworks = [Framework(**frame) for frame in frameworks]
+        self.adicionales = [Adicional(**comple) for comple in adicionales]
         self.image = image
         self.url = url
         self.github = github
@@ -57,6 +63,7 @@ class Data:
             about,
             technologies,
             frameworks,
+            adicionales,
             experience,
             projects,
             training,
@@ -73,6 +80,7 @@ class Data:
         self.about = about
         self.technologies = [Technology(**tech) for tech in technologies]
         self.frameworks = [Framework(**frame) for frame in frameworks]
+        self.adicionales = [Adicional(**comple) for comple in adicionales]
         self.experience = [Info(**info) for info in experience]
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]

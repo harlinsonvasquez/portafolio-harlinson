@@ -52,7 +52,51 @@
             "name": "Node.js"
         }
     ],
-   
+    "adicionales": [
+        {
+            "icon": "devicon-git-plain colored",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-original colored",
+            "name": "GitHub"
+        },
+        {
+            "icon": "devicon-mysql-original colored",
+            "name": "MySql"
+        },
+        {
+            "icon": "devicon-microsoftsqlserver-plain colored",
+            "name": "Sql Server"
+        },
+        {
+            "icon": "devicon-postgresql-plain colored",
+            "name": "Postgres"
+            
+        }
+        ,
+        {
+            "icon": "devicon-mongodb-plain colored",
+            "name": "MongoDB"
+            
+        },
+        {
+            "icon": "devicon-postman-plain colored",
+            "name": "Postman"
+            
+        },
+        {
+            "icon": "devicon-vscode-plain colored",
+            "name": "Vs Code"
+            
+        }
+        ,
+        {
+            "icon": "devicon-intellij-plain colored",
+            "name": "Intellij Idea"
+            
+        }
+    ],
     
     "experience": [
         {
