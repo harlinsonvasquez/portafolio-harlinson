@@ -41,6 +41,8 @@ def index() -> rx.Component:
         #background="radial-gradient(circle at 22% 11%, rgba(62, 180, 137, .40), hsla(0, 0%, 100%, 0) 19%), radial-gradient(circle at 82% 25%, rgba(33, 150, 243, .36), hsla(0, 0%, 100%, 0) 35%), radial-gradient(circle at 25% 61%, rgba(250, 128, 114, .56), hsla(0, 0%, 100%, 0) 55%)"
        # background="radial-gradient(circle at 22% 11%, rgba(255, 140, 0, .40), hsla(0, 0%, 100%, 0) 19%), radial-gradient(circle at 82% 25%, rgba(255, 20, 147, .36), hsla(0, 0%, 100%, 0) 35%), radial-gradient(circle at 25% 61%, rgba(65, 105, 225, .56), hsla(0, 0%, 100%, 0) 55%)"
        background="radial-gradient(circle at 22% 11%, rgba(255, 192, 203, .40), hsla(0, 0%, 100%, 0) 19%), radial-gradient(circle at 82% 25%, rgba(0, 255, 127, .36), hsla(0, 0%, 100%, 0) 35%), radial-gradient(circle at 25% 61%, rgba(255, 20, 147, .56), hsla(0, 0%, 100%, 0) 55%)"
+       #background= "radial-gradient(circle at 22% 11%, rgba(255, 255, 0, 0.4), hsla(0, 0%, 100%, 0) 19%), radial-gradient(circle at 82% 25%, rgba(0, 0, 255, 0.36), hsla(0, 0%, 100%, 0) 35%), radial-gradient(circle at 25% 61%, rgba(255, 0, 0, 0.56), hsla(0, 0%, 100%, 0) 55%)"
+
     )
 
 

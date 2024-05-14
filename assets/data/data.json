@@ -153,9 +153,17 @@
     "training": [
         {
             "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
+            "title": "Institucion Universitaria Pascual Bravo",
+            "subtitle": "Tegnologo en Desarrollo de Software",
             "description": "Aprendí cosas.",
+            "date": "cursando",
+            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Owen Patterson High",
+            "subtitle": "Otra escuela",
+            "description": "Aprendí más cosas.",
             "date": "Indeterminado",
             "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
         },
