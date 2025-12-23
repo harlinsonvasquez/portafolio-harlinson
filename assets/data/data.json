@@ -1,199 +1,134 @@
 {
-    "title": "Harlinson vasquez casanova | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Harlinson Vasquez Casanova",
-    "skill": "Programador- backend",
-    "location": "Medellin-Colombia",
-    "media": {
-        "email": "harvack25@gmail.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/harlinsonvasquez",
-        "likedin": "https://www.linkedin.com/in/harlinson-vasquez-casanova-27392129b/"
+  "title": "Harlinson Vásquez | Portafolio",
+  "description": "Desarrollador backend Java (Spring Boot) | APIs REST | JPA | JWT | Pruebas con JUnit 5 | AWS",
+  "image": "/avatar.jpg",
+  "avatar": "/avatar.jpg",
+  "name": "Harlinson Vásquez",
+  "skill": "Backend Developer (Java + Spring Boot)",
+  "location": "Medellín, Colombia",
+  "media": {
+    "email": "harvack25@gmail.com",
+    "cv": "/data/cv.pdf",
+    "github": "https://github.com/harlinsonvasquez",
+    "likedin": "https://www.linkedin.com/in/harlinson-vasquez-casanova-27392129b/"
+  },
+  "about": "Desarrollador backend con experiencia en Java 17 y Spring Boot, construyendo APIs REST con JPA/Hibernate, autenticación con JWT y buenas prácticas de arquitectura (Service Layer, Repository, DTO + Mapper con MapStruct). Trabajo remoto en un equipo pequeño/mediano con despliegues y bases de datos en AWS. Me enfoco en entregar soluciones claras, mantenibles y con pruebas unitarias (JUnit 5) y documentación (Swagger). Actualmente estudio Tecnología en Desarrollo de Software en la Institución Universitaria Pascual Bravo (5º semestre).",
+  "technologies": [
+    { "icon": "devicon-java-plain colored", "name": "Java 17" },
+    { "icon": "devicon-python-plain colored", "name": "Python" },
+    { "icon": "devicon-javascript-plain colored", "name": "JavaScript" },
+    { "icon": "devicon-dart-plain colored", "name": "Dart" }
+  ],
+  "frameworks": [
+    { "icon": "devicon-spring-original colored", "name": "Spring Boot" },
+    { "icon": "devicon-flutter-plain colored", "name": "Flutter" },
+    { "icon": "devicon-nodejs-plain-wordmark colored", "name": "Node.js" }
+  ],
+  "adicionales": [
+    { "icon": "devicon-git-plain colored", "name": "Git" },
+    { "icon": "devicon-github-original colored", "name": "GitHub" },
+    { "icon": "devicon-postgresql-plain colored", "name": "PostgreSQL" },
+    { "icon": "devicon-mysql-original colored", "name": "MySQL" },
+    { "icon": "devicon-microsoftsqlserver-plain colored", "name": "SQL Server" },
+    { "icon": "devicon-mongodb-plain colored", "name": "MongoDB" },
+    { "icon": "devicon-postman-plain colored", "name": "Postman" },
+    { "icon": "devicon-intellij-plain colored", "name": "IntelliJ IDEA" },
+    { "icon": "devicon-amazonwebservices-plain-wordmark colored", "name": "AWS" }
+  ],
+  "experience": [
+    {
+      "icon": "briefcase",
+      "title": "Desarrollador Backend (Remoto)",
+      "subtitle": "Empresa ecuatoriana (ecosistema tipo POS / contabilidad / restaurantes)",
+      "description": "Desarrollo y mantenimiento de APIs REST con Java 17 + Spring Boot. Implementación de flujos de negocio (documentos, retenciones, validaciones), capa de servicios delgada, repositorios JPA, DTOs + MapStruct, y pruebas unitarias con JUnit 5. Integraciones con AWS y enfoque en calidad, rendimiento y mantenibilidad.",
+      "date": "2024 - Actualidad"
     },
-    "about": "Soy un desarrollador junior apasionado por aprender y colaborar en equipos dinamicos. Mi actitud positiva, mi voluntad de adaptarme y mi sed de conocimiento me permiten contribuir activamente al exito de la empresa. Busco constantemente oportunidades para mejorar mis habilidades y mantenerme al tanto de las ultimas tecnologias. Estoy emocionado por la oportunidad de crecer profesionalmente y hacer una diferencia significativa en proyectos desafiantes..",
-    "technologies": [
-        
-      
-        {
-            "icon": "devicon-javascript-plain colored",
-            "name": "JavaScript"
-        },
-        {
-            "icon": "devicon-java-plain colored",
-            "name": "Java"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
-        }
-       
-    ],
-    "frameworks": [
-        {
-            "icon": "devicon-django-plain",
-            "name": "Django"
-        },
-        {
-            "icon": "devicon-flask-original",
-            "name": "Flask"
-        },
-        {
-            "icon": "devicon-eclipse-plain colored",
-            "name": "Eclipse"
-        },
-        {
-            "icon": "devicon-spring-original colored",
-            "name": "Spring Boot"
-        },
-        {
-            "icon": "devicon-nodejs-plain-wordmark colored",
-            "name": "Node.js"
-        }
-    ],
-    "adicionales": [
-        {
-            "icon": "devicon-git-plain colored",
-            "name": "Git"
-        },
-        {
-            "icon": "devicon-github-original colored",
-            "name": "GitHub"
-        },
-        {
-            "icon": "devicon-mysql-original colored",
-            "name": "MySql"
-        },
-        {
-            "icon": "devicon-microsoftsqlserver-plain colored",
-            "name": "Sql Server"
-        },
-        {
-            "icon": "devicon-postgresql-plain colored",
-            "name": "Postgres"
-            
-        }
-        ,
-        {
-            "icon": "devicon-mongodb-plain colored",
-            "name": "MongoDB"
-            
-        },
-        {
-            "icon": "devicon-postman-plain colored",
-            "name": "Postman"
-            
-        },
-        {
-            "icon": "devicon-vscode-plain colored",
-            "name": "Vs Code"
-            
-        }
-        ,
-        {
-            "icon": "devicon-intellij-plain colored",
-            "name": "Intellij Idea"
-            
-        }
-    ],
-    
-    "experience": [
-        {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
-        }
-    ],
-    "projects": [
-        {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/harlinsonvasquez"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        }
-    ],
-    "training": [
-        {
-            "icon": "backpack",
-            "title": "Institucion Universitaria Pascual Bravo",
-            "subtitle": "Tegnologo en Desarrollo de Software",
-            "description": "Aprendí cosas.",
-            "date": "cursando",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-        }
-    ]
+    {
+      "icon": "code",
+      "title": "Proyectos académicos y personales",
+      "subtitle": "Universidad + aprendizaje autodidacta",
+      "description": "Construcción de proyectos full-stack y móviles (Flutter), prácticas de arquitectura, documentación con Swagger y uso de herramientas como Git/GitHub. Trabajo constante en mejorar pruebas, seguridad (JWT/Spring Security) y despliegue.",
+      "date": "2023 - Actualidad"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "shopping-cart",
+      "title": "API REST: Productos + Auth JWT + Carrito",
+      "subtitle": "Java 17 + Spring Boot",
+      "description": "Proyecto de práctica con CRUD de productos, registro/login, autenticación JWT, endpoints organizados con DTOs y mappers, validaciones y documentación Swagger. Incluye pruebas con Postman y base de datos relacional.",
+      "technologies": [
+        { "icon": "devicon-java-plain colored", "name": "Java" },
+        { "icon": "devicon-spring-original colored", "name": "Spring Boot" },
+        { "icon": "devicon-postgresql-plain colored", "name": "PostgreSQL" }
+      ],
+      "image": "/project_1.jpg",
+      "url": "",
+      "github": "https://github.com/harlinsonvasquez"
+    },
+    {
+      "icon": "utensils-crossed",
+      "title": "Lo Exquisito del Mar (caso de pruebas)",
+      "subtitle": "Plan de pruebas + funcionalidades de restaurante",
+      "description": "Caso de estudio de QA: login, pedidos en línea, reservas, administración y gestión de productos. Elaboración de plan de pruebas y escenarios con enfoque funcional.",
+      "technologies": [
+        { "icon": "devicon-postman-plain colored", "name": "Postman" },
+        { "icon": "devicon-git-plain colored", "name": "Git" }
+      ],
+      "image": "/project_2.jpg",
+      "url": "",
+      "github": ""
+    },
+    {
+      "icon": "layers",
+      "title": "Portafolio en Reflex",
+      "subtitle": "Reflex (Python) + UI componentes",
+      "description": "Portafolio personal construido con Reflex, componentes reutilizables, data.json como fuente de verdad y estilos centralizados.",
+      "technologies": [
+        { "icon": "devicon-python-plain colored", "name": "Python" },
+        { "icon": "devicon-devicon-plain", "name": "Reflex" }
+      ],
+      "image": "/project_3.jpg",
+      "url": "",
+      "github": "https://github.com/harlinsonvasquez"
+    }
+  ],
+  "training": [
+    {
+      "icon": "graduation-cap",
+      "title": "Institución Universitaria Pascual Bravo",
+      "subtitle": "Tecnología en Desarrollo de Software (5º semestre)",
+      "description": "Formación en desarrollo de software, bases de datos, programación, pruebas y construcción de proyectos.",
+      "date": "En curso",
+      "certificate": ""
+    },
+    {
+      "icon": "book-open",
+      "title": "Formación autodidacta",
+      "subtitle": "Backend, AWS, pruebas y seguridad",
+      "description": "Aprendizaje continuo en Java 17, Spring Boot, JWT/Spring Security, JUnit 5, arquitectura y despliegue en la nube.",
+      "date": "Continuo",
+      "certificate": ""
+    }
+  ],
+  "extras": [
+    {
+      "image": "/extra_1.jpg",
+      "title": "Enfoque actual",
+      "description": "Me especializo en backend con Java + Spring Boot, APIs REST, seguridad con JWT y pruebas unitarias.",
+      "url": ""
+    },
+    {
+      "image": "/extra_2.jpg",
+      "title": "Objetivo",
+      "description": "Seguir creciendo de nivel junior a mid, fortaleciendo arquitectura, testing y cloud para optar a mejores roles.",
+      "url": ""
+    },
+    {
+      "image": "/extra_3.jpg",
+      "title": "GitHub",
+      "description": "Repositorios de práctica y proyectos personales. (Si quieres, te sugiero cómo organizarlo para recruiters).",
+      "url": "https://github.com/harlinsonvasquez"
+    }
+  ]
 }

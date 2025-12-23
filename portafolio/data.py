@@ -26,19 +26,39 @@ class Adicional:
 
 
 class Info:
-    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[],frameworks=[],adicionales=[], image="", url="", github=""):
+    def __init__(
+        self,
+        icon,
+        title,
+        subtitle,
+        description,
+        date="",
+        certificate="",
+        technologies=None,
+        frameworks=None,
+        adicionales=None,
+        image="",
+        url="",
+        github=""
+    ):
         self.icon = icon
         self.title = title
         self.subtitle = subtitle
         self.description = description
         self.date = date
         self.certificate = certificate
+
+        technologies = technologies or []
+        frameworks = frameworks or []
+        adicionales = adicionales or []
+
         self.technologies = [Technology(**tech) for tech in technologies]
         self.frameworks = [Framework(**frame) for frame in frameworks]
         self.adicionales = [Adicional(**comple) for comple in adicionales]
         self.image = image
         self.url = url
         self.github = github
+
 
 
 class Extra:
