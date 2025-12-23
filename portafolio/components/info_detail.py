@@ -17,21 +17,23 @@ def info_detail(info: Info) -> rx.Component:
                     size=Size.SMALL.value,
                     color_scheme="gray"#le damos un color gris al texto de la descripcion
                 ),
-                rx.cond(
-                    info.technologies,
+                (
                     rx.flex(
                         *[
                             rx.badge(
                                 rx.box(class_name=technology.icon),
                                 technology.name,
-                                color_scheme="gray"
+                                color_scheme="gray",
                             )
-                            for technology in info.technologies#recorremos la lista de tecnologias y creamos un badge con el icono y el nombre de la tecnologia 
+                            for technology in info.technologies
                         ],
                         wrap="wrap",
-                        spacing=Size.SMALL.value
+                        spacing=Size.SMALL.value,
                     )
+                    if info.technologies
+                    else rx.fragment()
                 ),
+
                 rx.hstack(
                     rx.cond(
                         info.url != "",

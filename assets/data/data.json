@@ -1,6 +1,6 @@
 {
-  "title": "Harlinson Vásquez | Portafolio",
-  "description": "Desarrollador backend Java (Spring Boot) | APIs REST | JPA | JWT | Pruebas con JUnit 5 | AWS",
+  "title": "Harlinson Vásquez | Backend Java Developer",
+  "description": "Backend Java Developer con más de 2 años de experiencia en Java y Spring Boot. APIs REST seguras, sistemas multi-tenant, PostgreSQL, Docker y pruebas automatizadas.",
   "image": "/avatar.jpg",
   "avatar": "/avatar.jpg",
   "name": "Harlinson Vásquez",
@@ -12,25 +12,23 @@
     "github": "https://github.com/harlinsonvasquez",
     "likedin": "https://www.linkedin.com/in/harlinson-vasquez-casanova-27392129b/"
   },
-  "about": "Desarrollador backend con experiencia en Java 17 y Spring Boot, construyendo APIs REST con JPA/Hibernate, autenticación con JWT y buenas prácticas de arquitectura (Service Layer, Repository, DTO + Mapper con MapStruct). Trabajo remoto en un equipo pequeño/mediano con despliegues y bases de datos en AWS. Me enfoco en entregar soluciones claras, mantenibles y con pruebas unitarias (JUnit 5) y documentación (Swagger). Actualmente estudio Tecnología en Desarrollo de Software en la Institución Universitaria Pascual Bravo (5º semestre).",
+  "about": "Desarrollador Backend Java con más de 2 años de experiencia profesional, especializado en el desarrollo de APIs REST seguras y sistemas multi-tenant con Java y Spring Boot. He trabajado en empresas como Bancolombia y Smart Menú, participando en el diseño de arquitecturas backend, optimización de rendimiento y construcción de soluciones escalables. Experiencia con Spring Security, JWT, PostgreSQL, Docker y pruebas automatizadas con JUnit y Mockito. Busco seguir creciendo como desarrollador backend en entornos colaborativos y de alto impacto.",
   "technologies": [
     { "icon": "devicon-java-plain colored", "name": "Java 17" },
     { "icon": "devicon-python-plain colored", "name": "Python" },
-    { "icon": "devicon-javascript-plain colored", "name": "JavaScript" },
-    { "icon": "devicon-dart-plain colored", "name": "Dart" }
+    { "icon": "devicon-javascript-plain colored", "name": "JavaScript" }
   ],
   "frameworks": [
     { "icon": "devicon-spring-original colored", "name": "Spring Boot" },
-    { "icon": "devicon-flutter-plain colored", "name": "Flutter" },
-    { "icon": "devicon-nodejs-plain-wordmark colored", "name": "Node.js" }
+    { "icon": "devicon-spring-original colored", "name": "Spring Security" },
+    { "icon": "devicon-angularjs-plain colored", "name": "Angular" }
   ],
   "adicionales": [
     { "icon": "devicon-git-plain colored", "name": "Git" },
     { "icon": "devicon-github-original colored", "name": "GitHub" },
     { "icon": "devicon-postgresql-plain colored", "name": "PostgreSQL" },
     { "icon": "devicon-mysql-original colored", "name": "MySQL" },
-    { "icon": "devicon-microsoftsqlserver-plain colored", "name": "SQL Server" },
-    { "icon": "devicon-mongodb-plain colored", "name": "MongoDB" },
+    { "icon": "devicon-docker-plain colored", "name": "Docker" },
     { "icon": "devicon-postman-plain colored", "name": "Postman" },
     { "icon": "devicon-intellij-plain colored", "name": "IntelliJ IDEA" },
     { "icon": "devicon-amazonwebservices-plain-wordmark colored", "name": "AWS" }
@@ -38,25 +36,32 @@
   "experience": [
     {
       "icon": "briefcase",
-      "title": "Desarrollador Backend (Remoto)",
-      "subtitle": "Empresa ecuatoriana (ecosistema tipo POS / contabilidad / restaurantes)",
-      "description": "Desarrollo y mantenimiento de APIs REST con Java 17 + Spring Boot. Implementación de flujos de negocio (documentos, retenciones, validaciones), capa de servicios delgada, repositorios JPA, DTOs + MapStruct, y pruebas unitarias con JUnit 5. Integraciones con AWS y enfoque en calidad, rendimiento y mantenibilidad.",
-      "date": "2024 - Actualidad"
+      "title": "Desarrollador Full Stack Java",
+      "subtitle": "Bancolombia",
+      "description": "Desarrollo de una plataforma completa utilizando Java, Spring Boot, Angular y PostgreSQL. Participación en el diseño de arquitectura, backend, frontend y base de datos. Implementación de seguridad, validaciones y pruebas de APIs REST, manejo de errores backend y pruebas con Postman, con enfoque en buenas prácticas y calidad de software.",
+      "date": "Jun 2025 - Actualidad"
     },
     {
-      "icon": "code",
-      "title": "Proyectos académicos y personales",
-      "subtitle": "Universidad + aprendizaje autodidacta",
-      "description": "Construcción de proyectos full-stack y móviles (Flutter), prácticas de arquitectura, documentación con Swagger y uso de herramientas como Git/GitHub. Trabajo constante en mejorar pruebas, seguridad (JWT/Spring Security) y despliegue.",
-      "date": "2023 - Actualidad"
+      "icon": "server",
+      "title": "Desarrollador Backend Java",
+      "subtitle": "Smart Menú",
+      "description": "Desarrollo y mantenimiento de APIs REST con Java 17 y Spring Boot para sistemas de menús digitales y gestión de pedidos. Implementación de más de 60 endpoints REST, optimización de consultas en PostgreSQL, integración con servicios externos (pagos y correos), pruebas unitarias con JUnit y Mockito, despliegues con Docker y construcción de soluciones escalables.",
+      "date": "Ene 2024 - Jun 2025"
+    },
+    {
+      "icon": "layers",
+      "title": "Desarrollador Java Multi-tenant",
+      "subtitle": "OnCredit",
+      "description": "Refactorización e implementación de un sistema multi-tenant con Java y Spring Boot. Diseño de arquitectura escalable y segura, integración de servicios, manejo de bases de datos relacionales y desarrollo de pruebas de integración y rendimiento.",
+      "date": "Oct 2024 - Mar 2025"
     }
   ],
   "projects": [
     {
       "icon": "shopping-cart",
-      "title": "API REST: Productos + Auth JWT + Carrito",
-      "subtitle": "Java 17 + Spring Boot",
-      "description": "Proyecto de práctica con CRUD de productos, registro/login, autenticación JWT, endpoints organizados con DTOs y mappers, validaciones y documentación Swagger. Incluye pruebas con Postman y base de datos relacional.",
+      "title": "Sistema POS para Restaurantes",
+      "subtitle": "API REST + versión Mobile",
+      "description": "Desarrollo de una API REST con Java y Spring Boot para un sistema POS orientado a restaurantes, incluyendo gestión de pedidos, productos y facturación. Diseño de base de datos SQL, control de versiones con Git y aplicación de pruebas de código seguro.",
       "technologies": [
         { "icon": "devicon-java-plain colored", "name": "Java" },
         { "icon": "devicon-spring-original colored", "name": "Spring Boot" },
@@ -64,50 +69,49 @@
       ],
       "image": "/project_1.jpg",
       "url": "",
-      "github": "https://github.com/harlinsonvasquez"
-    },
-    {
-      "icon": "utensils-crossed",
-      "title": "Lo Exquisito del Mar (caso de pruebas)",
-      "subtitle": "Plan de pruebas + funcionalidades de restaurante",
-      "description": "Caso de estudio de QA: login, pedidos en línea, reservas, administración y gestión de productos. Elaboración de plan de pruebas y escenarios con enfoque funcional.",
-      "technologies": [
-        { "icon": "devicon-postman-plain colored", "name": "Postman" },
-        { "icon": "devicon-git-plain colored", "name": "Git" }
-      ],
-      "image": "/project_2.jpg",
-      "url": "",
       "github": ""
     },
     {
-      "icon": "layers",
-      "title": "Portafolio en Reflex",
-      "subtitle": "Reflex (Python) + UI componentes",
-      "description": "Portafolio personal construido con Reflex, componentes reutilizables, data.json como fuente de verdad y estilos centralizados.",
+      "icon": "database",
+      "title": "Gestión de Inventarios y Facturación",
+      "subtitle": "Colaboración con RIWI",
+      "description": "Sistema backend en Java para la gestión de inventarios y facturación, con manejo de stock en tiempo real, módulos de ventas y diseño de base de datos.",
       "technologies": [
-        { "icon": "devicon-python-plain colored", "name": "Python" },
-        { "icon": "devicon-devicon-plain", "name": "Reflex" }
+        { "icon": "devicon-java-plain colored", "name": "Java" },
+        { "icon": "devicon-postgresql-plain colored", "name": "PostgreSQL" }
+      ],
+      "image": "/project_2.jpg",
+      "url": "",
+      "github": "https://github.com/Riwi-Lovelace/RIWI_MARKET_BACKEND"
+    },
+    {
+      "icon": "cube",
+      "title": "Espacio Promocional en el Metaverso",
+      "subtitle": "Proyecto Java",
+      "description": "Desarrollo de un entorno virtual interactivo para promoción de productos, con bases de datos robustas, módulos de análisis de usuarios y personalización de espacios, trabajando con equipos multidisciplinarios.",
+      "technologies": [
+        { "icon": "devicon-java-plain colored", "name": "Java" }
       ],
       "image": "/project_3.jpg",
       "url": "",
-      "github": "https://github.com/harlinsonvasquez"
+      "github": "https://github.com/harlinsonvasquez/metaverso_java"
     }
   ],
   "training": [
     {
       "icon": "graduation-cap",
       "title": "Institución Universitaria Pascual Bravo",
-      "subtitle": "Tecnología en Desarrollo de Software (5º semestre)",
+      "subtitle": "Tecnología en Desarrollo de Software",
       "description": "Formación en desarrollo de software, bases de datos, programación, pruebas y construcción de proyectos.",
-      "date": "En curso",
+      "date": "2019 - En curso",
       "certificate": ""
     },
     {
       "icon": "book-open",
-      "title": "Formación autodidacta",
-      "subtitle": "Backend, AWS, pruebas y seguridad",
-      "description": "Aprendizaje continuo en Java 17, Spring Boot, JWT/Spring Security, JUnit 5, arquitectura y despliegue en la nube.",
-      "date": "Continuo",
+      "title": "Centro de Formación RIWI",
+      "subtitle": "Certificación Java y Spring Boot",
+      "description": "Entrenamiento intensivo en Java, Spring Boot, buenas prácticas, testing y desarrollo backend profesional.",
+      "date": "2023 - 2024",
       "certificate": ""
     }
   ],
@@ -115,19 +119,19 @@
     {
       "image": "/extra_1.jpg",
       "title": "Enfoque actual",
-      "description": "Me especializo en backend con Java + Spring Boot, APIs REST, seguridad con JWT y pruebas unitarias.",
+      "description": "Especialización en backend con Java + Spring Boot, APIs REST seguras, multi-tenant, Docker y pruebas automatizadas.",
       "url": ""
     },
     {
       "image": "/extra_2.jpg",
-      "title": "Objetivo",
-      "description": "Seguir creciendo de nivel junior a mid, fortaleciendo arquitectura, testing y cloud para optar a mejores roles.",
+      "title": "Objetivo profesional",
+      "description": "Continuar creciendo como Backend Java Developer, fortaleciendo arquitectura, testing y soluciones escalables.",
       "url": ""
     },
     {
       "image": "/extra_3.jpg",
       "title": "GitHub",
-      "description": "Repositorios de práctica y proyectos personales. (Si quieres, te sugiero cómo organizarlo para recruiters).",
+      "description": "Repositorios de práctica y proyectos reales enfocados en backend Java.",
       "url": "https://github.com/harlinsonvasquez"
     }
   ]
