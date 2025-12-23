@@ -15,7 +15,7 @@ mkdir -p public
 # reflex init
 
 # Export estático
-reflex export --frontend-only
+reflex export 
 
 # Caso 1: Reflex genera frontend.zip (tu caso anterior)
 if [ -f "frontend.zip" ]; then
